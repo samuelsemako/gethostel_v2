@@ -1,0 +1,101 @@
+<?php include 'alert.php'?>
+
+<header class="fadeInDown animated">
+    <div class="top-header">
+        <div class="top-inner-div">
+            <div class="left-div">
+                <span><i class="bi-envelope"></i> info@gethostel.com</span>
+                <span><i class="bi-telephone"></i> 1-800-6585679</span>          
+            </div>
+
+                
+            <div class="right-back-div">
+                <span><i class="bi-person"></i> My Account</span>
+                <div class="right-div">
+                    <ul>
+                        <a href="https://api.whatsapp.com/send?text=Hello 1stClassic&amp;phone=+14159371660" target="_blank" title="Whatsapp">
+                        <li><i class="bi-whatsapp"></i></li></a>
+                        <a href="https://web.facebook.com/1stclassiclimos" target="_blank" title="Facebook">
+                        <li class="li"><i class="bi-facebook"></i></li></a>
+                        <a href="https://twitter.com/1stclassiclimos" target="_blank" title="Twitter">
+                        <li class="li"><i class="bi-twitter"></i></li></a>
+                        <a href="https://www.instagram.com/1stclassiclimos/" target="_blank" title="Instagram">
+                        <li class="li"><i class="bi-instagram"></i></li></a>                
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="main-header-in-div">
+        <div class="logo-div">
+            <img src="all-images/images/logo2.png" alt="gethostel logo">
+        </div>
+
+        <nav>
+            <ul>        
+                <a href="<?php echo $website_url?>" title="Package Deals">
+                    <li <?php if (($website_auto_url=="$website_url/")) {?> class="active" <?php }?>>
+                        Home Page
+                    </li>
+                </a>
+
+                <a href="<?php echo $website_url ?>/about" title="About Us">
+                    <li <?php if (($website_auto_url=="$website_url/about")) {?> class="active" <?php }?>>
+                        About Us                        
+                    </li>
+                </a>
+
+                <a href="<?php echo $website_url?>/services/" title="Our Service">
+                    <li id="expand-div" class="services <?php if (strstr($website_auto_url, "$website_url/services/")) {?> active <?php }?>">
+                        Hostels <i class="bi-chevron-down"></i>
+                        <div class="sub-div animated fadeIn">
+                            <ul class="ul-class">
+                                <a href="<?php echo $website_url?>/" title="Fleet">
+                                <li class="li">Self Room</li></a>                            
+                            </ul>
+                        </div>
+                    </li>
+                </a>  
+
+                <a href="<?php echo $website_url?>" title="Contact Us">
+                    <li class="contact-us <?php if (strstr($website_auto_url, "$website_url/blog")) {?> active <?php }?>">
+                        Blog
+                    </li>
+                </a> 
+
+                <a href="<?php echo $website_url?>" title="Frequently Asked Questions">
+                    <li class="faq <?php if (strstr($website_auto_url, "$website_url/wine-country-region-of-northern-california")) {?> active <?php }?>">
+                        FAQ
+                    </li>
+                </a>
+
+                <a href="<?php echo $website_url?>" title="Contact Us">
+                    <li class="contact-us <?php if (strstr($website_auto_url, "$website_url/blog")) {?> active <?php }?>">
+                        Contact Us
+                    </li>
+                </a> 
+                
+                <li id="expand-div" class="read-more <?php if (strstr($website_auto_url, "$website_url/more")) {?> active <?php }?>">
+                    Read More <i class="bi-chevron-down"></i>
+                    <div class="sub-div animated fadeIn">
+                        <ul class="ul-class">
+                            <a href="<?php echo $website_url?>" title="FAQ">
+                            <li class="li">FAQ</li></a>
+                            <a href="<?php echo $website_url?>" title="Contact Us">
+                            <li class="li">Contact Us</li></a>                           
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="btn-div">
+            <a href="<?php echo $website_url?>" title="Add Property">
+            <button class="btn" title="Add Property"><i class="bi-house-add-fill"></i> Add Property</button></a>
+            <button class="mobile-btn" onclick="_open_menu()"><i class="bi-list"></i></button>
+        </div>
+    </div>
+</header>
