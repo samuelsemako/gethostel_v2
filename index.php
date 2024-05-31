@@ -115,6 +115,37 @@
     </div>
 
     <section class="index-content-div">
+
+    <!-- About Us -->
+    <section class="body-div ">
+            <div class="body-div-in">
+                <div class="about-body-div">
+                    <div class="image-div">
+                        <img src="<?php echo $website_url ?>/all-images/body-pix/house6.jpg" alt="about us picture">
+                    </div>
+
+                    <div class="text-div">
+                        <span>About Us</span>
+                        <h2>Experience the art of hospitality at getHostel for <span>Comfortabilty</span></h2>
+                        <p>Welcome to getHostel a vibrant and inclusive community designed for students. Our story began with the passion of creating a home away from home, where all walk of life could come together and make unforgettable memories.</p>
+
+                        <div class="text-bottom-div">
+                            <h4><i class="bi-check"></i> Easy Booking</h4>
+                            <h4><i class="bi-check"></i> Hostels</h4>
+                            <h4><i class="bi-check"></i> Flexibility</h4>
+                            <h4><i class="bi-check"></i> Trustworthiness</h4>
+                        </div>
+
+                        <div class="button-div">
+                            <button class="btn">Read More <i class="bi-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Hostel List -->
         <section class="body-div">
             <div class="body-div-in">
                 <div class="title-div">
@@ -136,7 +167,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N100k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -155,7 +186,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N120k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -174,7 +205,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N150k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -193,7 +224,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N100k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -212,7 +243,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N120k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -231,7 +262,7 @@
                                 <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
                                 <div class="bottom-div">
-                                    <h4>#150, 000 /<span>year</span></h4>
+                                    <h4>N150k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
                             </div>
@@ -239,10 +270,168 @@
                     </div>
                     
                 </div>
+
+                <div class="button-div">
+                    <button class="btn" title="See more apartments">See More <i class="bi-chevron-right"></i></button>
+                </div>
             </div> 
         </section>
-    </section>
 
-    <?php include 'bottom-scripts.php'?>
+       
+        <section class="why-div">
+            <div class="why-div-in">
+                <div class="title-div">
+                    <span>Why Choose Us</span>
+                    <h3>We Give A Unique Blend Of Comfort, Community, And Convenience!</h3>
+                </div>
+
+                <div class="box-div">
+                    <div class="box-content-div">
+                        <div class="div-in">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
+                            <h3>Easy Booking</h3>
+                            <p>Book your stay with us in just a few simple step</p>
+                        </div>
+                    </div>
+                    
+                    <div class="box-content-div">
+                        <div class="div-in">
+                            <i class="bi bi-person-bounding-box"></i>
+                            <h3>Experienced Managers</h3>
+                            <p>Book your stay with us in just a few simple step</p>
+                        </div>
+                    </div>
+                    
+                    <div class="box-content-div">
+                        <div class="div-in">
+                            <i class="bi bi-shield-fill-check"></i>
+                            <h3>Secured Locations</h3>
+                            <p>Book your stay with us in just a few simple step</p>
+                        </div>
+                    </div>
+
+                    <div class="box-content-div">
+                        <div class="div-in">
+                            <i class="bi bi-person-hearts"></i>
+                            <h3>Friendly Neighbours</h3>
+                            <p>Book your stay with us in just a few simple step</p>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </section>
+        <br clear="all"/>
+        <br clear="all"/>
+       
+
+        <!-- Blog -->
+        <section class="body-div">
+            <div class="body-div-in">
+                <div class="title-div art">
+                    <div class="text">
+                        <span>Latest Insight</span>
+                        <h2>News & Articles</h2>
+                    </div>
+
+                    <button class="btn">View More <i class="bi-chevron-right"></i></button>
+                </div>
+
+                <div class="news-art-div">
+                    <div class="news-art-content">
+                        <div class="image-div">
+                            <img src="all-images/body-pix/house1.jpg" alt="">
+                        </div>
+
+                        <div class="text-div">
+                            <div class="news-view-div">
+                                <div class="views">
+                                    <i class="bi-calendar3"></i> 24 May, 2024 <span>|</span> <i class="bi-eye"></i> 1,211 Views
+                                </div>
+                            </div>
+
+                            <h3>Affordable Houses For You available around</h3>
+                            <p>Find your place without breaking the bank. A place to call home place to call home......</p>
+                            <a href="<?php echo $website_url?>/#">
+                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+
+
+                    <div class="news-art-content">
+                        <div class="image-div">
+                            <img src="all-images/body-pix/house1.jpg" alt="">
+                        </div>
+
+                        <div class="text-div">
+                            <div class="news-view-div">
+                                <div class="views">
+                                    <i class="bi-calendar3"></i> 24 May, 2024 <span>|</span> <i class="bi-eye"></i> 1,211 Views
+                                </div>
+                            </div>
+
+                            <h3>Affordable Houses For You available around</h3>
+                            <p>Find your place without breaking the bank. A place to call home......</p>
+                            <a href="<?php echo $website_url?>/#">
+                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+
+
+                    <div class="news-art-content">
+                        <div class="image-div">
+                            <img src="all-images/body-pix/house1.jpg" alt="">
+                        </div>
+
+                        <div class="text-div">
+                            <div class="news-view-div">
+                                <div class="views">
+                                    <i class="bi-calendar3"></i> 24 May, 2024 <span>|</span> <i class="bi-eye"></i> 1,211 Views
+                                </div>
+                            </div>
+
+                            <h3>Affordable Houses For You available around</h3>
+                            <p>Find your place without breaking the bank. A place to call home......</p>
+                            <a href="<?php echo $website_url?>/#">
+                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="body-div">
+            <div class="body-div-in">
+                <div class="title-div">
+                    <span>Questions & Answers</span>
+                </div>
+
+                <div class="faq-div">
+                
+                    <div class="faq-text-div">
+                        <h3>See Frequently Asked Questions</h3>
+
+                        <div class="faq-box">
+                            <p>What does the rent include and not include?</p>
+                            <i class="bi-plus"></i>
+                        </div>
+
+                        <div class="faq-box">
+                            <p>What does the rent include and not include?</p>
+                            <i class="bi-plus"></i>
+                        </div>
+
+                        <div class="faq-box">
+                            <p>What does the rent include and not include?</p>
+                            <i class="bi-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br clear="all"/>
+      
+        <?php include 'footer.php'?>
+    </section>
 </body>
 </html>

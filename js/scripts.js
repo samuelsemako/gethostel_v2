@@ -16,7 +16,7 @@ $(window).scroll(function () {
     } else {
         $("header").css({
             "position": "absolute",
-            "background": "rgba(255, 255, 255, 0.062)"
+            "background": "rgba(255, 255, 255, 0.027)"
         });
         $(".top-header").css({
             "display": "flex"

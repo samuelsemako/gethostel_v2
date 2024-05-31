@@ -8,7 +8,6 @@
                 <span><i class="bi-telephone"></i> 1-800-6585679</span>          
             </div>
 
-                
             <div class="right-back-div">
                 <span><i class="bi-person"></i> My Account</span>
                 <div class="right-div">
@@ -25,13 +24,11 @@
                 </div>
             </div>
         </div>
-        
     </div>
-
 
     <div class="main-header-in-div">
         <div class="logo-div">
-            <img src="all-images/images/logo2.png" alt="gethostel logo">
+            <img src="<?php echo $website_url?>/all-images/images/logo.png" alt="<?php echo $thename?> Logo"  class="animated zoomIn"/></a>   
         </div>
 
         <nav>
