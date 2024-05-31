@@ -339,7 +339,7 @@
                 <div class="news-art-div">
                     <div class="news-art-content">
                         <div class="image-div">
-                            <img src="all-images/body-pix/house1.jpg" alt="">
+                            <img src="<?php echo $website_url?>/all-images/body-pix/house1.jpg" alt="blog image">
                         </div>
 
                         <div class="text-div">
@@ -352,14 +352,14 @@
                             <h3>Affordable Houses For You available around</h3>
                             <p>Find your place without breaking the bank. A place to call home place to call home......</p>
                             <a href="<?php echo $website_url?>/#">
-                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                            <button class="btn" title="Read more about our affordable apartment">Read More <i class="bi-arrow-right"></i></button></a>
                         </div>
                     </div>
 
 
                     <div class="news-art-content">
                         <div class="image-div">
-                            <img src="all-images/body-pix/house1.jpg" alt="">
+                            <img src="<?php echo $website_url?>/all-images/body-pix/house1.jpg" alt="blog image">
                         </div>
 
                         <div class="text-div">
@@ -372,14 +372,14 @@
                             <h3>Affordable Houses For You available around</h3>
                             <p>Find your place without breaking the bank. A place to call home......</p>
                             <a href="<?php echo $website_url?>/#">
-                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                            <button class="btn" title="Read more about our affordable apartment">Read More <i class="bi-arrow-right"></i></button></a>
                         </div>
                     </div>
 
 
                     <div class="news-art-content">
                         <div class="image-div">
-                            <img src="all-images/body-pix/house1.jpg" alt="">
+                            <img src="<?php echo $website_url?>/all-images/body-pix/house1.jpg" alt="blog image">
                         </div>
 
                         <div class="text-div">
@@ -392,7 +392,7 @@
                             <h3>Affordable Houses For You available around</h3>
                             <p>Find your place without breaking the bank. A place to call home......</p>
                             <a href="<?php echo $website_url?>/#">
-                            <button class="btn">Read More <i class="bi-arrow-right"></i></button></a>
+                            <button class="btn" title="Read more about our affordable apartment">Read More <i class="bi-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
@@ -400,7 +400,7 @@
         </section>
 
         <!-- FAQ -->
-        <section class="body-div">
+        <section class="body-div faq">
             <div class="body-div-in">
                 <div class="title-div">
                     <span>Questions & Answers</span>
@@ -410,6 +410,16 @@
                 
                     <div class="faq-text-div">
                         <h3>See Frequently Asked Questions</h3>
+
+                        <div class="faq-box-drop">
+                            <div class="text">
+                                <p>Can I pay Online?</p>
+                                <i class="bi-dash"></i>
+                            </div>
+                            <div class="drop-down">
+                               <p>Yes, you can. We have an online payment system and an automatic generated reciept</p>
+                            </div>
+                        </div>
 
                         <div class="faq-box">
                             <p>What does the rent include and not include?</p>
