@@ -51,3 +51,21 @@ function _close_side_nav(){
 	   $('.sidenavdiv, .sidenavdiv-in').animate({'margin-left':'-100%'},200);
 	   $('.index-menu-back-div,.live-chat-back-div').animate({'margin-left':'-100%'},400);
 }
+
+
+
+function _collapse(div_id) {
+    var x = document.getElementById(div_id + "num");
+    var faqDiv = document.getElementById(div_id + "answer").parentNode;
+    var titleDiv = faqDiv.querySelector('.faq-title-div');
+
+    if (x.innerHTML === '&nbsp;<i class="bi-dash"></i>&nbsp;') {
+        x.innerHTML = '&nbsp;<i class="bi-plus"></i>&nbsp;';
+        titleDiv.classList.remove('active');
+    } else {
+        x.innerHTML = '&nbsp;<i class="bi-dash"></i>&nbsp;';
+        titleDiv.classList.add('active');
+    }
+    $('#'+div_id+'answer').slideToggle('slow');
+}
+

@@ -58,19 +58,19 @@
                 </a>  
 
                 <a href="<?php echo $website_url?>" title="Contact Us">
-                    <li class="contact-us <?php if (strstr($website_auto_url, "$website_url/blog")) {?> active <?php }?>">
+                    <li class="contact-us <?php if (($website_auto_url=="$website_url/blog")) {?> active <?php }?>">
                         Blog
                     </li>
                 </a> 
 
                 <a href="<?php echo $website_url?>" title="Frequently Asked Questions">
-                    <li class="faq <?php if (strstr($website_auto_url, "$website_url/wine-country-region-of-northern-california")) {?> active <?php }?>">
+                    <li class="faq <?php if (($website_auto_url=="$website_url/contact-us")) {?> active <?php }?>">
                         FAQ
                     </li>
                 </a>
 
                 <a href="<?php echo $website_url?>" title="Contact Us">
-                    <li class="contact-us <?php if (strstr($website_auto_url, "$website_url/blog")) {?> active <?php }?>">
+                    <li class="contact-us <?php if (($website_auto_url=="$website_url/contact-us")) {?> active <?php }?>">
                         Contact Us
                     </li>
                 </a> 

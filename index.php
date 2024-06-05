@@ -400,41 +400,60 @@
         </section>
 
         <!-- FAQ -->
-        <section class="body-div faq">
+        <section class="body-div faq-body">
             <div class="body-div-in">
-                <div class="title-div">
+                <div class="title-div faq-title">
                     <span>Questions & Answers</span>
+                    <h2>See Frequently Asked Questions</h2>
                 </div>
 
-                <div class="faq-div">
-                
-                    <div class="faq-text-div">
-                        <h3>See Frequently Asked Questions</h3>
-
-                        <div class="faq-box-drop">
-                            <div class="text">
-                                <p>Can I pay Online?</p>
-                                <i class="bi-dash"></i>
-                            </div>
-                            <div class="drop-down">
-                               <p>Yes, you can. We have an online payment system and an automatic generated reciept</p>
-                            </div>
+                <div class="faq-back-div">
+                    <div class="faq-div" onclick="_collapse('faq244')">
+                        <div class="faq-title-div active">
+                            <h3>Can I pay Online?</h3>
+                            <div class="icon-div" id="faq244num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
                         </div>
 
-                        <div class="faq-box">
-                            <p>What does the rent include and not include?</p>
-                            <i class="bi-plus"></i>
+                        <div class="answer-div" id="faq244answer">
+                            <p>Yes, you can. We have an online payment system and an automatic generated reciept Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-div" onclick="_collapse('faq245')">
+                        <div class="faq-title-div">
+                            <h3>Can I pay Online?</h3>
+                            <div class="icon-div" id="faq245num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
                         </div>
 
-                        <div class="faq-box">
-                            <p>What does the rent include and not include?</p>
-                            <i class="bi-plus"></i>
+                        <div class="answer-div" id="faq245answer" style="display:none">
+                            <p>Yes, you can. We have an online payment system and an automatic generated reciept Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-div" onclick="_collapse('faq246')">
+                        <div class="faq-title-div">
+                            <h3>Can I pay Online?</h3>
+                            <div class="icon-div" id="faq246num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
                         </div>
 
-                        <div class="faq-box">
-                            <p>What does the rent include and not include?</p>
-                            <i class="bi-plus"></i>
+                        <div class="answer-div" id="faq246answer" style="display:none">
+                            <p>Yes, you can. We have an online payment system and an automatic generated reciept Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep</p>
                         </div>
+                    </div>
+
+                    <div class="faq-div" onclick="_collapse('faq246')">
+                        <div class="faq-title-div">
+                            <h3>Can I pay Online?</h3>
+                            <div class="icon-div" id="faq246num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
+                        </div>
+
+                        <div class="answer-div" id="faq246answer" style="display:none">
+                            <p>Yes, you can. We have an online payment system and an automatic generated reciept Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep</p>
+                        </div>
+                    </div>
+
+                    <div class="button-div">
+                        <button class="btn" title="See more apartments">See More <i class="bi-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
