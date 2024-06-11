@@ -31,38 +31,52 @@
                 <p>Relax, you're home</p>
 
                 <div class="slide-bottom-back-div">
-                    <div class="slide-bottom-div">
+                    <div class=apart-loc-price>
                         <div class="icon-div">
-                            <i class="bi-shield-check"></i>
+                            <i class=bi-house-fill></i>
                         </div>
+                        <select id="apartments" class="select_field">
+                            <option value="All apartments">Select Apartments</option>
+                            <option value="Single-Room">Single-Room</option>
+                            <option value="Self-Contained">Self-Contained</option>
+                            <option value="Flat">Flat</option>
+                        </select>
+                    </div>
+                    
+                    <div class=apart-loc-price>
+                        <div class="icon-div">
+                            <i class=bi-credit-card></i>
+                        </div>
+                        <select id="apartments" class="select_field">
+                            <option value="All prices">Select Price</option>
+                            <option value="#70k - #90k">70k - 90k</option>
+                            <option value="#100k - #120k">100k - 120k</option>
+                            <option value="#130k - #150k">130k - 150k</option>
+                            <option value="#160k - #180k">160k - 180k</option>
 
-                        <div class="text-div">
-                            <p>Good Security</p>
-                        </div>             
+                        </select>
+                    </div>
+                    
+
+                    <div class=apart-loc-price>
+                        <div class="icon-div">
+                            <i class=bi-geo-alt></i>
+                        </div>
+                        <select id="apartments" class="select_field">
+                            <option value="Location">Select Locations</option>
+                            <option value="Isara">Isara</option>
+                            <option value="Ode">Ode</option>
+                            <option value="Ipara">Ipara</option>
+                        </select>
                     </div>
 
-                    <div class="slide-bottom-div">
-                        <div class="icon-div">
-                            <i class="bi-shield-check"></i>
-                        </div>
-
-                        <div class="text-div">
-                            <p>Good Security</p>
-                        </div>             
-                    </div>
-
-                    <div class="slide-bottom-div">
-                        <div class="icon-div">
-                            <i class="bi-shield-check"></i>
-                        </div>
-
-                        <div class="text-div">
-                        <p>Good Security</p>
-                        </div>             
-                    </div>
+                    <button class="btn">Search Now!</button>
                 </div>
             </div>
         </div>
+
+
+
         <script type="text/javascript">
         // List of sentences
         var _CONTENT = [ "Convenience","Comfort","Secured"];
@@ -441,13 +455,13 @@
                         </div>
                     </div>
 
-                    <div class="faq-div" onclick="_collapse('faq246')">
+                    <div class="faq-div" onclick="_collapse('faq247')">
                         <div class="faq-title-div">
                             <h3>Can I pay Online?</h3>
-                            <div class="icon-div" id="faq246num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
+                            <div class="icon-div" id="faq247num"> &nbsp;<i class="bi-plus"></i>&nbsp;</div>
                         </div>
 
-                        <div class="answer-div" id="faq246answer" style="display:none">
+                        <div class="answer-div" id="faq247answer" style="display:none">
                             <p>Yes, you can. We have an online payment system and an automatic generated reciept Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep Yes, you can. We have an online payment system and an automatic generated reciep</p>
                         </div>
                     </div>

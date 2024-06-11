@@ -27,19 +27,20 @@
     </div>
 
     <div class="main-header-in-div">
+        <a href="<?php echo $website_url?>">
         <div class="logo-div">
-            <img src="<?php echo $website_url?>/all-images/images/logo.png" alt="<?php echo $thename?> Logo"  class="animated zoomIn"/></a>   
-        </div>
+            <img src="<?php echo $website_url?>/all-images/images/logo.png" alt="<?php echo $thename?> Logo"  class="animated zoomIn"/>  
+        </div></a>
 
         <nav>
             <ul>        
-                <a href="<?php echo $website_url?>" title="Package Deals">
+                <a href="<?php echo $website_url?>" title="index">
                     <li <?php if (($website_auto_url=="$website_url/")) {?> class="active" <?php }?>>
                         Home Page
                     </li>
                 </a>
 
-                <a href="<?php echo $website_url ?>/about" title="About Us">
+                <a href="about" title="About Us">
                     <li <?php if (($website_auto_url=="$website_url/about")) {?> class="active" <?php }?>>
                         About Us                        
                     </li>
@@ -64,7 +65,7 @@
                 </a> 
 
                 <a href="<?php echo $website_url?>" title="Frequently Asked Questions">
-                    <li class="faq <?php if (($website_auto_url=="$website_url/contact-us")) {?> active <?php }?>">
+                    <li class="faq <?php if (($website_auto_url=="$website_url/faq")) {?> active <?php }?>">
                         FAQ
                     </li>
                 </a>
