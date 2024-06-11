@@ -40,7 +40,7 @@
                     </li>
                 </a>
 
-                <a href="about" title="About Us">
+                <a href="<?php echo $website_url ?>/about" title="About Us">
                     <li <?php if (($website_auto_url=="$website_url/about")) {?> class="active" <?php }?>>
                         About Us                        
                     </li>
@@ -65,7 +65,7 @@
                 </a> 
 
                 <a href="<?php echo $website_url?>" title="Frequently Asked Questions">
-                    <li class="faq <?php if (($website_auto_url=="$website_url/faq")) {?> active <?php }?>">
+                    <li class="faq <?php if (($website_auto_url=="$website_url/contact-us")) {?> active <?php }?>">
                         FAQ
                     </li>
                 </a>
