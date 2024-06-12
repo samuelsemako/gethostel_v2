@@ -46,8 +46,8 @@
                     </li>
                 </a>
 
-                <a href="<?php echo $website_url?>/services/" title="Our Service">
-                    <li id="expand-div" class="services <?php if (strstr($website_auto_url, "$website_url/services/")) {?> active <?php }?>">
+                <a href="<?php echo $website_url?>/hostels/" title="Our Service">
+                    <li id="expand-div" class="services <?php if (strstr($website_auto_url, "$website_url/hostels/")) {?> active <?php }?>">
                         Hostels <i class="bi-chevron-down"></i>
                         <div class="sub-div animated fadeIn">
                             <ul class="ul-class">

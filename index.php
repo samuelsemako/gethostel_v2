@@ -286,7 +286,8 @@
                 </div>
 
                 <div class="button-div">
-                    <button class="btn" title="See more apartments">See More <i class="bi-chevron-right"></i></button>
+                    <a href="<?php echo $website_url?>/hostels/" title="hostels">
+                    <button class="btn" title="See more apartments">See More <i class="bi-chevron-right"></i></button></a>
                 </div>
             </div> 
         </section>
