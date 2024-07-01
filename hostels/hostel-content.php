@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="title">
-                    <h1>Hostels Description</h1>
+                    <h1>Single Apartment at Araromi, Isara</h1>
                 </div>  
             </div>
            
@@ -45,31 +45,79 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="description-div">
-                    <div class="main-hostel-image">
-                        <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
+                    <div class="desc-main">
+                        <div class="desc-main-img-div">
+                            <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                        </div>
+
+                        <div class="desc-main-others-images">
+                            <div class="desc-main-others">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                            </div>
+                            <div class="desc-main-others">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                            </div>
+                            <div class="desc-main-others">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                            </div>
+                            <div class="desc-main-others">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                            </div>
+                            <div class="desc-main-others">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">    
+                            </div>
+                        </div>
+
+                        <div class="text-div">
+                            <div class="text-div-in">
+                                <h2>Single Apartment at Araromi, Isara</h2>
+                                <span><i class="bi-geo-alt"></i> Araromi, Isara</span>
+
+                                <div class="text-content-div">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <p>
+                                        Duis aute irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                                        mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
                     </div>
 
-                    <div class="sub-hostel-image">
-                    <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
-                    <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
-                    <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
-                    <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
-                    <img src="<?php echo $website_url?>/all-images/body-pix/house2.jpg" alt="Hostel  house">
-                    </div>
 
-                    <div class="hostel-desc-text">
-                       <h2>Single Apartment at Araromi, Isara</h2>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                       </p>
-                       <p>
-                            Duis aute irure
-                           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                            mollit anim id est laborum.
-                        </p>
+
+                    <div class="desc-right">
+                        <div class="desc-right-top">
+                            <div class="desc-right-top-inner">
+                                <h4>₦ 130,000 <span>per annum</span></h4>
+                                <button class="btn"> <i class ="bi-whatsapp"></i>  Chat on Whatsapp </button>
+                                <button class="btnn"> <i class ="bi-telephone-fill"></i>  Show contact</button>
+                            </div>
+                        </div>
+
+                        <div class="desc-right-bottom">
+                            <div class="desc-right-bottom-inner">
+                                <h4 class="safety">Safety Tips</h4>
+                                <ul>
+                                    <li>It's safer not to pay ahead for inspections</li>
+                                    <li>Ask friends or somebody you trust to accompany you for viewing</li>
+                                    <li>Look around the apartment to ensure it meets your expectations</li>
+                                    <li>Don't pay beforehand if they won't let you move in immediately</li>
+                                    <li>Verify that the account details belong to the right property owner before initiating payment</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </section>

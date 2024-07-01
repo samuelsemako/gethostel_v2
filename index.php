@@ -184,6 +184,7 @@
                                     <h4>N100k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>
@@ -203,6 +204,7 @@
                                     <h4>N120k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>
@@ -222,6 +224,7 @@
                                     <h4>N150k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>
@@ -241,6 +244,7 @@
                                     <h4>N100k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>
@@ -260,6 +264,7 @@
                                     <h4>N120k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>
@@ -279,6 +284,7 @@
                                     <h4>N150k <span>/year</span></h4>
                                     <button class="btn" title="View Detail">View Detail</button>
                                 </div>
+                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
                             </div>
                         </div> 
                     </div>

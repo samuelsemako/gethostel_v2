@@ -69,3 +69,16 @@ function _collapse(div_id) {
     $('#'+div_id+'answer').slideToggle('slow');
 }
 
+
+const rangeInput = document.getElementById('myRange');
+const minValueSpan = document.getElementById('min-value');
+const maxValueSpan = document.getElementById('max-value');
+
+rangeInput.addEventListener('input', () => {
+  const values = rangeInput.value.split(',');
+  minValueSpan.textContent = values[0];
+  maxValueSpan.textContent = values[1];
+});
+
+
+

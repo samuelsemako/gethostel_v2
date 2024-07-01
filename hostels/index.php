@@ -15,7 +15,7 @@
     <meta name="twitter:card" content="<?php echo $thename?>"/> 
     <meta name="twitter:image"  content="<?php echo $website_url?>/all-images/plugin-pix/1st-classic.jpg"/> 
     <meta name="twitter:description" content="Premier Airport Transportation Limousine Car service provider in San Francisco for Corporate Transportation, Wine Tour to Napa, Sonoma, Livermore Valley"/>
-   
+    
 </head>
 
 <body>
@@ -44,216 +44,218 @@
 
     <section class="pages-content">
 
-        <section class="body-div category">
-            <div class="body-div-in category-in">
+        <div class="category">
+            <div class="category-in">
                 <div class="category-list-div">
-                    <ul>
-                        <a href="<?php echo $website_url ?>/#" title="Single Room Apartment">
-                        <li>Single Room Apartment</li></a>
-                        <a href="<?php echo $website_url ?>/#" title="Mini Flat Apartment">
-                        <li>Mini Flat Apartment</li></a>
-                        <a href="<?php echo $website_url ?>/#" title="Self Contained">
-                        <li>Self-Contained</li></a>
-                        <a href="<?php echo $website_url ?>/#" title="Flat">
-                        <li>Flat</li></a>
-                    </ul>
+                    <div class="img-btn"> 
+                        <img src="<?php echo $website_url ?>/all-images/body-pix/room-parlour.png" alt="single room"> 
+                        <button type="">Single Room Apartment</button>
+                    </div>
+
+                    <div class="img-btn">  
+                        <img src="<?php echo $website_url ?>/all-images/body-pix/room-parlour.png" alt="single room">
+                        <button type="">Mini Flat Apartment</button>
+                    </div>
+
+                    <div class="img-btn">
+                        <img src="<?php echo $website_url ?>/all-images/body-pix/room-parlour.png" alt="single room">  
+                        <button type="">Self-Contained</button>
+                    </div>
+
+
+                    <div class="img-btn">  
+                        <img src="<?php echo $website_url ?>/all-images/body-pix/room-parlour.png" alt="single room">
+                        <button type="">Flat</button>
+                    </div> 
+                    
+
                 </div>
             </div>
 
-        </section>
+        </div>
+
         <!-- Hostel List -->
         <section class="body-div">
-            <div class="body-div-in house-right-left">
-                
-                <div class="house-list-div">
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/background.jpg" alt="hostels for rent">                       
+            <div class="body-div-in">
+                <div class="house-right-left">
+
+                    <div class="house-list-div cat-show-div">
+                        <div class="house-cont cat-show-div-in">
+                            <div class="status-div">Available</div>
+                            <div class="image-div">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/background.jpg" alt="hostels for rent">                       
+                            </div>
+
+                            <div class="text-div">
+                                <div class="text-inner-div">
+                                    <h2>Single Room</h2>
+                                    <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
+
+                                    <div class="bottom-div">
+                                        <h4>₦100k <span>/year</span></h4>
+                                        <button class="btn" title="View Detail">View Detail</button>
+                                    </div>
+                                    <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
+                                </div>
+                            </div> 
                         </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Single Room</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N100k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Agbero, Ode-Remo</span>
+                        <div class="house-cont cat-show-div-in">
+                            <div class="status-div">Available</div>
+                            <div class="image-div">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house1.jpg" alt="hostels for rent">                       
                             </div>
-                        </div> 
-                    </div>
 
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house1.jpg" alt="hostels for rent">                       
+                            <div class="text-div">
+                                <div class="text-inner-div">
+                                    <h2>Mini Flat Apartment</h2>
+                                    <p>Perfectly designed for solo students,
+                                            providing everything you need for a restful and rejuvinating for......</p>
+
+                                    <div class="bottom-div">
+                                        <h4>₦120k <span>/year</span></h4>
+                                        <button class="btn" title="View Detail"><a href="<?php echo $website_url?>/hostels/hostel-content" 
+                                            title="hostels">View More</a> </button>
+                                    </div>
+                                    
+                                    <span><i class="bi-geo-alt"></i> Round-about, Ode-Remo</span>
+                                </div>
+                            </div> 
                         </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Mini Flat Apartment</h2>
-                                <p>Perfectly designed for solo students,
-                                     providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N120k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail"><a href="<?php echo $website_url?>/hostels/hostel-content" 
-                                        title="hostels">View More</a> </button>
-                                </div>
-                                
-                                <span><i class="bi-geo-alt"></i> Round-about, Ode-Remo</span>
+                        <div class="house-cont cat-show-div-in">
+                            <div class="status-div">Available</div>
+                            <div class="image-div">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">                       
                             </div>
-                        </div> 
-                    </div>
 
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house5.jpg" alt="hostels for rent">                       
+                            <div class="text-div">
+                                <div class="text-inner-div">
+                                    <h2>Self Contained</h2>
+                                    <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
+
+                                    <div class="bottom-div">
+                                        <h4>₦150k <span>/year</span></h4>
+                                        <button class="btn" title="View Detail">View Detail</button>
+                                    </div>
+                                    <span><i class="bi-geo-alt"></i> Total, Isara-Remo</span>
+                                </div>
+                            </div> 
                         </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Self Contained</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N150k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Total, Isara-Remo</span>
+                        <div class="house-cont cat-show-div-in">
+                            <div class="status-div">Available</div>
+                            <div class="image-div">
+                                <img src="<?php echo $website_url ?>/all-images/body-pix/house4.jpg" alt="hostels for rent">                       
                             </div>
-                        </div> 
-                    </div>
 
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house4.jpg" alt="hostels for rent">                       
+                            <div class="text-div">
+                                <div class="text-inner-div">
+                                    <h2>Self Contained</h2>
+                                    <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
+
+                                    <div class="bottom-div">
+                                        <h4>₦100k <span>/year</span></h4>
+                                        <button class="btn" title="View Detail">View Detail</button>
+                                    </div>
+                                    <span><i class="bi-geo-alt"></i> OTP, Ode-Remo</span>
+                                </div>
+                            </div> 
                         </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Self Contained</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N100k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> OTP, Ode-Remo</span>
-                            </div>
-                        </div> 
                     </div>
 
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house3.avif" alt="hostels for rent">                       
+                    <div class="house-catright-inner">
+                        <div class="house-cat-right">                        
+                            <div class="cat-right-title">
+                                <h2>Location</h2>
+                            </div>
+
+                            <div class="cat-right-cont">
+                                <div class="in-div top-in">
+                                    <label>
+                                        <input type="radio" class="check_box" name="location" value="Ode Remo">
+                                        <span class="check_box"></span> Ode Remo
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" class="check_box" name="location" value="Isara Remo">
+                                        <span class="check_box"></span> Isara Remo
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" class="check_box" name="location" value="Ipara Remo">
+                                        <span class="check_box"></span> Ipara Remo
+                                    </label>   
+                                </div>                                       
+                            </div>
                         </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Single Room</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
 
-                                <div class="bottom-div">
-                                    <h4>N120k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Platform, Ipara-Remo</span>
+                        <div class="house-cat-right">
+                            <div class="cat-right-title">
+                                <h2>Price Range</h2>
                             </div>
-                        </div> 
-                    </div>
 
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house2.jpg" alt="hostels for rent">                       
-                        </div>
+                            <div class="cat-right-cont">
+                                <div class="in-div">
+                                    <div class="top-text">
+                                        <span>Price (₦)</span>  
+                                        <button class="btn">Apply</button>                              
+                                    </div>
 
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Mini Flat Apartment</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
+                                    <div class="slider-container">
+                                        <div id="priceRange" class="slider"></div>
+                                        <div class="price-text">
+                                            <input type="number" id="minPriceValue" class="price-input" min="90000" max="350000"> - 
+                                            <input type="number" id="maxPriceValue" class="price-input" min="90000" max="350000">
+                                        </div>
+                                    </div>
 
-                                <div class="bottom-div">
-                                    <h4>N150k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
                                 </div>
-                                <span><i class="bi-geo-alt"></i> Iraye, Ode-Remo</span>
                             </div>
-                        </div> 
+                        </div>               
                     </div>
-                    
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house2.jpg" alt="hostels for rent">                       
-                        </div>
-
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Mini Flat Apartment</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N150k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Obalende, Isara</span>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house2.jpg" alt="hostels for rent">                       
-                        </div>
-
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Mini Flat Apartment</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N150k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Garage, Ipara</span>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="house-cont">
-                        <div class="status-div">Available</div>
-                        <div class="image-div">
-                            <img src="<?php echo $website_url ?>/all-images/body-pix/house2.jpg" alt="hostels for rent">                       
-                        </div>
-
-                        <div class="text-div">
-                            <div class="text-inner-div">
-                                <h2>Mini Flat Apartment</h2>
-                                <p>Perfectly designed for solo students, providing everything you need for a restful and rejuvinating for......</p>
-
-                                <div class="bottom-div">
-                                    <h4>N150k <span>/year</span></h4>
-                                    <button class="btn" title="View Detail">View Detail</button>
-                                </div>
-                                <span><i class="bi-geo-alt"></i> Oke-bola, Isara-Remo</span>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-
-                <div class="house-cat-right">
-                    scsfsfsfsfsfsfsfsfsf
-                </div>
+                </div> 
             </div> 
+            <script>
+                $(function() {
+                    var minInput = $("#minPriceValue");
+                    var maxInput = $("#maxPriceValue");
+
+                    $("#priceRange").slider({
+                        range: true,
+                        min: 90000,
+                        max: 350000,
+                        values: [90000, 350000],
+                        step: 10,
+                        slide: function(event, ui) {
+                            minInput.val(ui.values[0]);
+                            maxInput.val(ui.values[1]);
+                        }
+                    });
+
+                    function validateAndCorrectValues() {
+                        var minValue = parseInt(minInput.val(), 10) || 90000;
+                        var maxValue = parseInt(maxInput.val(), 10) || 350000;
+
+                        minValue = Math.max(90000, Math.min(minValue, maxValue));
+                        maxValue = Math.min(350000, Math.max(maxValue, minValue));
+                        minInput.val(minValue);
+                        maxInput.val(maxValue);
+                        $("#priceRange").slider("values", [minValue, maxValue]);
+                    }
+                    minInput.add(maxInput).on("input blur keydown", function(event) {
+                        if (event.type === "blur" || event.key === "Enter") {
+                            validateAndCorrectValues();
+                        }
+                    });
+
+                    // Initial setup
+                    minInput.val($("#priceRange").slider("values", 0));
+                    maxInput.val($("#priceRange").slider("values", 1));
+                });
+            </script>
         </section>
 
        
